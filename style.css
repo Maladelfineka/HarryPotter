@@ -14,8 +14,15 @@ h1{
     color: rgb(57, 87, 153);
 }
 
-div {
-    background-color: beige;
-    
+.div1 {
+    background-color: rgb(135, 173, 255);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-
+.link {
+    color: rgb(226, 226, 236);
+    text-decoration: none;
+}
