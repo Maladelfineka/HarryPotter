@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
-    background-color: rgb(183, 203, 245);
+    background-color:#5D7BFC;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,18 +11,39 @@ body {
 
 h1{
     font-family: lato;
-    color: rgb(57, 87, 153);
+    color: #C2D7FF;
 }
-
+img {
+    width: 800px;
+}
 .div1 {
-    background-color: rgb(135, 173, 255);
+    background-color: #0F0A33;
     width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
+p {
+    color: #C2D7FF;
+}
 .link {
     color: rgb(226, 226, 236);
     text-decoration: none;
+}
+@media (max-width: 1024px) {
+    img {
+        width: 500px;
+    }
+}
+
+.kafelek {
+    background-color: #3B28CC;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+    margin:20px;
+    box-shadow: -51px -20px 61px -27px rgba(206, 221, 255, 1);
 }
